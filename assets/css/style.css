@@ -24,6 +24,7 @@
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
+    to bottom right, 
     hsl(240, 1%, 25%) 3%, 
     hsl(0, 0%, 19%) 97%
   );
@@ -32,8 +33,6 @@
     hsla(240, 1%, 18%, 0.251) 0%, 
     hsla(240, 2%, 11%, 0) 100%
   ), hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
     hsl(45, 100%, 71%) 0%, 
@@ -62,10 +61,8 @@
   --eerie-black-1: hsl(240, 2%, 13%);
   --eerie-black-2: hsl(240, 2%, 12%);
   --smoky-black: hsl(0, 0%, 7%);
-  --white-1: hsl(0, 0%, 20%);
-  --white-2: hsl(0, 0%, 30%);
-  --light-gray: hsl(0, 0%, 50%);
-  --light-gray-70: hsla(0, 0%, 50%, 0.7);;
+  --white-1: hsl(0, 0%, 100%);
+  --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: hsl(0, 0%, 84%);
@@ -158,7 +155,7 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: #f0f0f0; /* Light gray */ }
+body { background: var(--smoky-black); }
 
 
 
